@@ -38,16 +38,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#about">OM OSS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#services">TJÄNSTER</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">BILDER</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">KONTAKT</a>
             </li>
           </ul>
         </div>
@@ -58,13 +58,13 @@
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase">
+            <h1 class="text-uppercase" style="text-shadow: 0 0 3px black;">
               <strong>Flygges Transport</strong>
             </h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-uppercase mb-5">VI FÅR DET GJORT !</h2>
+            <h2 class="text-uppercase mb-5" style="text-shadow: 0 0 3px black;">VI FÅR DET GJORT!</h2>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Läs mer</a>
           </div>
         </div>
@@ -77,8 +77,8 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-white">OM OSS</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Vi är ett litet företag som fixar jobbet. Spelar ingen roll om det är en liten grävmaskin som ska flyttas eller ett stort hus element. Vi får det gjort!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+            <h2 class="text-white mb-4">Vi är ett litet företag som fixar jobbet. Spelar ingen roll om det är en liten grävmaskin som ska flyttas eller ett stort hus element. Vi får det gjort!</h2>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">TJÄNSTER</a>
           </div>
         </div>
       </div>
@@ -222,26 +222,49 @@
             <p class="mb-5">Har du några funderingar tveka inte att höra av dig.</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4 ml-auto text-center">
-            <a href="#"><i class="fa fa-phone fa-3x mb-3 sr-contact"></i></a>
-            <p><a href="#">123-456-6789</a></p>
+		<div class="row">
+          <div class="col-lg-3 ml-auto text-center">
+            <a href="#"><i class="fa fa-facebook fa-3x mb-3 sr-contact"></i></a>
+			<p><a href="#">facebook</a></p>
           </div>
-          <div class="col-lg-4 mr-auto text-center">
+          <div class="col-lg-3 mr-auto text-center">
+            <a href="#"><i class="fa fa-instagram fa-3x mb-3 sr-contact"></i></a>
+			<p><a href="#">instagram</a></p>
+          </div>
+
+          <div class="col-lg-3 ml-auto text-center">
+            <a href="#"><i class="fa fa-phone fa-3x mb-3 sr-contact"></i></a>
+            <p><a href="#">08 409 177 10</a></p>
+          </div>
+          <div class="col-lg-3 mr-auto text-center">
             <a href="mailto:your-email@your-domain.com"><i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i></a>
             <p>
               <a href="mailto:your-email@your-domain.com">info@flygges.se</a>
             </p>
           </div>
-		  <div class="col-lg-4 ml-auto text-center">
-            <a href="https://www.facebook.com/Flyggestransport/"><i class="fa fa-facebook fa-3x mb-3 sr-contact"></i></a>
-			<p>
-			  <a href="https://www.facebook.com/Flyggestransport/">Facebook</a>
-			</p>
-          </div>
         </div>
       </div>
     </section>
+	<!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mx-auto mb-2 text-center">
+            <div id="copyrightOutput"></div>
+				<br>
+            <span>Made By <a href="#">RC</a></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+ 
+	 <script type="text/javascript">
+	   var date=new Date(),
+			 year = date.getFullYear(),
+			text ="Copyright " + "© " + "Flygges Transport AB " + year;
+	   document.getElementById("copyrightOutput").innerHTML=text;
+	 </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
